@@ -18,6 +18,7 @@ If I wanted the resulting image to fit on a 10 inch x 10 inch square, the image 
 Regardless of my desire to have things work out in even numbers, I want to accomodate the end user more. 
 
 At the command line, starting the program, I'll have options for
-  * -f filename
+  * -f or -fi filename in
+  * -fo filename out (default is filename + '_xstitch') should program save as png? pdf?
   * -x -y size of canvas. if only x, then a square is assumed
-  * -sc Aida Cloth Stitch Count
+  * -sc Aida Cloth Stitch Count (should this be ac, or cc?)
