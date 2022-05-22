@@ -1,0 +1,11 @@
+That was such a cool ad.
+I'll start by saying its easy to be wrong when you don't know a lot and make a bunch of assumptions.
+I thought a matrix was a grid created by a system of equations, ruled by linear algebra with special row and column operations. 
+https://en.wikipedia.org/wiki/Matrix_(mathematics)
+I am under the impression that a vector can usually be described by a Matrix. (starting point, direction, magnitude)
+On the other hand, my assumption of an array is a list or combination of lists. I though a one-dimensional array  was often a sequence of memory addresses with each address holding a thing. I also thought an array could have many dimensions. If I had a 100-dimension array, in order to reference a specific thing or cell, I would need a 100-set coordinate that was unique to this one spot. 
+Wikipedia says that matrices were called 'Arrays' up until the 1800's.
+
+For my cross stitch pattern generator, I don't need to do a lot of math. I just need a two-dimensional array, where the contents of each cell is the colour of the thread/floss.
+
+The first step will be to load the image.
