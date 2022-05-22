@@ -1,6 +1,6 @@
 Geeks for Geeks has the best description for doing the image conversions. There are many guides out there, but they seem to prefer Anaconda and Jupyter Notebooks. Those are on my list of things to do, but they don't seem to be relevant to the task at hand.
 
-https://www.geeksforgeeks.org/how-to-convert-images-to-numpy-array/
+
 
 so if I begin with the end in mind, I want to output an image that is xsize x ysize.
 each xy coordinate will be a color. each color will also be given an icon based on its value.
@@ -13,9 +13,10 @@ from numpy import asarray
   
   
 # load the image and convert into a numpy array
-#https://docs.python.org/3/tutorial/inputoutput.html?highlight=file%20operation#reading-and-writing-files
+
 with Image.open('Sample.png') as img:
   #display image
+  #show image parameters (size, type)
   #Filter image - apply any filters or transformations, color enhancements, artsy changes
   #resize image
   #crop image
@@ -24,3 +25,13 @@ with Image.open('Sample.png') as img:
   
   # asarray() class is used to convert PIL images into NumPy arrays
      numpydata = asarray(img)
+
+
+
+
+
+
+
+#references/sources
+#https://docs.python.org/3/tutorial/inputoutput.html?highlight=file%20operation#reading-and-writing-files
+#https://www.geeksforgeeks.org/how-to-convert-images-to-numpy-array/
