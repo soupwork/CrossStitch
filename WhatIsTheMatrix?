@@ -1,4 +1,6 @@
 That was such a cool ad.
+I am working on understanding why I would want to use NumPy for images, and get into the differences between Vectors, Arrays and Matricies. 
+
 I'll start by saying its easy to be wrong when you don't know a lot and make a bunch of assumptions.
 I thought a matrix was a grid created by a system of equations, ruled by linear algebra with special row and column operations. 
 https://en.wikipedia.org/wiki/Matrix_(mathematics)
