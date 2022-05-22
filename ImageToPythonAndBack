@@ -9,15 +9,23 @@ DMC threads are listed in rgb, I believe.
 
 # Imports
 from PIL import Image # this is Pillow
-from numpy import asarray
+from numpy import asarray  # NumPy
   
 startimage = 'TestImagecircles.png'  
+endXsize = 100
+endYsize = 100
+endsize = (endXsize,endYsize) #tuple will be moved later
+# for 
 # load the image and convert into a numpy array
 
 with Image.open(startimage) as img: 
-
+  img.load()
   #display image
+  img.show()
   #show image parameters (size, type)
+  print(f'image format is {img.format}')  #ex 'png', 'jpg'
+  print(f'image size is {img.size}')  #ex '(800,800)'
+  print(f'image Mode is {img.mode}'   #ex 'RGB'
   #Filter image - apply any filters or transformations, color enhancements, artsy changes
   #resize image
   #crop image
