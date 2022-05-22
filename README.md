@@ -1,7 +1,7 @@
 # CrossStitch
 Python Program to create cross stitch patterns
 
-A program to create cross stitch patterns? How hard could it be? Ha! For any creative/coder/engineering type, any task, no matter how simple, can be convoluted into something so massive that George R.R. Martin and his Game of Thrones pantheon of characters would shake their heads and tear-up at.
+A program to create cross stitch patterns? How hard could it be? Ha! For any creative/coder/engineering type, any task, no matter how simple, can be convoluted into something so massive that George R.R. Martin and his Game of Thrones pantheon of characters would shake their heads and tear-up at. In my case, I didn't think it sounded too easy, but it did sound like fun. I wanted to do something nice for my wife. Thinking about it, I started to get some ideas.
 
 I'll work on this in at least three stages.
 The first stage will be to just get the background mechanics working. so I can take an image, resize it (probably using Pillow), put it into an array (probably using Numpy), set colours (colors), and save the pattern.
