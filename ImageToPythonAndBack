@@ -11,10 +11,11 @@ DMC threads are listed in rgb, I believe.
 from PIL import Image # this is Pillow
 from numpy import asarray
   
-  
+startimage = 'TestImagecircles.png'  
 # load the image and convert into a numpy array
 
-with Image.open('Sample.png') as img:
+with Image.open(startimage) as img: 
+
   #display image
   #show image parameters (size, type)
   #Filter image - apply any filters or transformations, color enhancements, artsy changes
