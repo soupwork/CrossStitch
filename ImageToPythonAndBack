@@ -8,7 +8,7 @@ each xy coordinate will be a color. each color will also be given an icon based 
 DMC threads are listed in rgb, I believe. 
 
 # Imports
-from PIL import Image # this is Pillow
+from PIL import Image, Imagedraw # this is Pillow
 from numpy import asarray  # NumPy
   
 startimage = 'TestImagecircles.png'  
