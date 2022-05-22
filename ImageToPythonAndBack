@@ -15,9 +15,12 @@ from numpy import asarray
 # load the image and convert into a numpy array
 #https://docs.python.org/3/tutorial/inputoutput.html?highlight=file%20operation#reading-and-writing-files
 with Image.open('Sample.png') as img:
+  #display image
+  #Filter image - apply any filters or transformations, color enhancements, artsy changes
   #resize image
   #crop image
-  #filter image
+  #resize image (again, now to final size)
+  #display changed image
   
   # asarray() class is used to convert PIL images into NumPy arrays
      numpydata = asarray(img)
