@@ -31,3 +31,13 @@ I want to take my image from pillow, change it to an array, and from there, sort
 thinking about MVC
 -------------------
 I am planning on making the application a MVC app, so i can change around the UI, keeping the controller and model separate. I was going to have two classes in my model. one for the pillow image, and one for the NumPy array.
+
+
+
+
+
+Sources and Hyperlinks
+----------------------
+in a random nonsense baffling order
+https://analyticsindiamag.com/a-beginners-guide-to-image-processing-using-numpy/
+https://note.nkmk.me/en/python-numpy-image-processing/
