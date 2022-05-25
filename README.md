@@ -27,3 +27,7 @@ thinking about NumPy
 ---------------------
 So I was thinking about NumPy. I was considering how to change from an array back to an image. Then it occured to me, "why do I need to do that?"
 I want to take my image from pillow, change it to an array, and from there, sort out a grid with the the solid RGB colours, replicate the grid with symbols for each colour, and add a key for the symbols, colour names, and dmc (or other thread mfg) numbers. If I am printing a grid, is that really printing an image? I don't think so. I have a smaller image to bring into numpy and play around a bit.
+
+thinking about MVC
+-------------------
+I am planning on making the application a MVC app, so i can change around the UI, keeping the controller and model separate. I was going to have two classes in my model. one for the pillow image, and one for the NumPy array.
