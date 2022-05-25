@@ -22,3 +22,8 @@ At the command line, starting the program, I'll have options for
   * -fo filename out (default is filename + '_xstitch') should program save as png? pdf?
   * -x -y size of canvas. if only x, then a square is assumed
   * -sc Aida Cloth Stitch Count (should this be ac, or cc?)
+
+thinking about NumPy
+---------------------
+So I was thinking about NumPy. I was considering how to change from an array back to an image. Then it occured to me, "why do I need to do that?"
+I want to take my image from pillow, change it to an array, and from there, sort out a grid with the the solid RGB colours, replicate the grid with symbols for each colour, and add a key for the symbols, colour names, and dmc (or other thread mfg) numbers. If I am printing a grid, is that really printing an image? I don't think so. I have a smaller image to bring into numpy and play around a bit.
